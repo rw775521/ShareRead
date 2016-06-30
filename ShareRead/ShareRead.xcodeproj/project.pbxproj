@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE747C031D25573C00B05C80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE747C021D25573C00B05C80 /* main.m */; };
+		FE747C061D25573C00B05C80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE747C051D25573C00B05C80 /* AppDelegate.m */; };
+		FE747C081D25573C00B05C80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE747C071D25573C00B05C80 /* Assets.xcassets */; };
+		FE747C0B1D25573C00B05C80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE747C091D25573C00B05C80 /* LaunchScreen.storyboard */; };
+		FE747C161D25573D00B05C80 /* ShareReadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE747C151D25573D00B05C80 /* ShareReadTests.m */; };
+		FE747C211D25573D00B05C80 /* ShareReadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE747C201D25573D00B05C80 /* ShareReadUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE747C121D25573D00B05C80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE747BF61D25573C00B05C80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE747BFD1D25573C00B05C80;
+			remoteInfo = ShareRead;
+		};
+		FE747C1D1D25573D00B05C80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE747BF61D25573C00B05C80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE747BFD1D25573C00B05C80;
+			remoteInfo = ShareRead;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE747BFE1D25573C00B05C80 /* ShareRead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareRead.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE747C021D25573C00B05C80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE747C041D25573C00B05C80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE747C051D25573C00B05C80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE747C071D25573C00B05C80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE747C0A1D25573C00B05C80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE747C0C1D25573C00B05C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE747C111D25573D00B05C80 /* ShareReadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareReadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE747C151D25573D00B05C80 /* ShareReadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareReadTests.m; sourceTree = "<group>"; };
+		FE747C171D25573D00B05C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE747C1C1D25573D00B05C80 /* ShareReadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareReadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE747C201D25573D00B05C80 /* ShareReadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareReadUITests.m; sourceTree = "<group>"; };
+		FE747C221D25573D00B05C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE747BFB1D25573C00B05C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE747C0E1D25573D00B05C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE747C191D25573D00B05C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE747BF51D25573C00B05C80 = {
+			isa = PBXGroup;
+			children = (
+				FE747C001D25573C00B05C80 /* ShareRead */,
+				FE747C141D25573D00B05C80 /* ShareReadTests */,
+				FE747C1F1D25573D00B05C80 /* ShareReadUITests */,
+				FE747BFF1D25573C00B05C80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE747BFF1D25573C00B05C80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE747BFE1D25573C00B05C80 /* ShareRead.app */,
+				FE747C111D25573D00B05C80 /* ShareReadTests.xctest */,
+				FE747C1C1D25573D00B05C80 /* ShareReadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE747C001D25573C00B05C80 /* ShareRead */ = {
+			isa = PBXGroup;
+			children = (
+				FE747C041D25573C00B05C80 /* AppDelegate.h */,
+				FE747C051D25573C00B05C80 /* AppDelegate.m */,
+				FE747C071D25573C00B05C80 /* Assets.xcassets */,
+				FE747C091D25573C00B05C80 /* LaunchScreen.storyboard */,
+				FE747C0C1D25573C00B05C80 /* Info.plist */,
+				FE747C011D25573C00B05C80 /* Supporting Files */,
+			);
+			path = ShareRead;
+			sourceTree = "<group>";
+		};
+		FE747C011D25573C00B05C80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE747C021D25573C00B05C80 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE747C141D25573D00B05C80 /* ShareReadTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE747C151D25573D00B05C80 /* ShareReadTests.m */,
+				FE747C171D25573D00B05C80 /* Info.plist */,
+			);
+			path = ShareReadTests;
+			sourceTree = "<group>";
+		};
+		FE747C1F1D25573D00B05C80 /* ShareReadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE747C201D25573D00B05C80 /* ShareReadUITests.m */,
+				FE747C221D25573D00B05C80 /* Info.plist */,
+			);
+			path = ShareReadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE747BFD1D25573C00B05C80 /* ShareRead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE747C251D25573D00B05C80 /* Build configuration list for PBXNativeTarget "ShareRead" */;
+			buildPhases = (
+				FE747BFA1D25573C00B05C80 /* Sources */,
+				FE747BFB1D25573C00B05C80 /* Frameworks */,
+				FE747BFC1D25573C00B05C80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareRead;
+			productName = ShareRead;
+			productReference = FE747BFE1D25573C00B05C80 /* ShareRead.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE747C101D25573D00B05C80 /* ShareReadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE747C281D25573D00B05C80 /* Build configuration list for PBXNativeTarget "ShareReadTests" */;
+			buildPhases = (
+				FE747C0D1D25573D00B05C80 /* Sources */,
+				FE747C0E1D25573D00B05C80 /* Frameworks */,
+				FE747C0F1D25573D00B05C80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE747C131D25573D00B05C80 /* PBXTargetDependency */,
+			);
+			name = ShareReadTests;
+			productName = ShareReadTests;
+			productReference = FE747C111D25573D00B05C80 /* ShareReadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE747C1B1D25573D00B05C80 /* ShareReadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE747C2B1D25573D00B05C80 /* Build configuration list for PBXNativeTarget "ShareReadUITests" */;
+			buildPhases = (
+				FE747C181D25573D00B05C80 /* Sources */,
+				FE747C191D25573D00B05C80 /* Frameworks */,
+				FE747C1A1D25573D00B05C80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE747C1E1D25573D00B05C80 /* PBXTargetDependency */,
+			);
+			name = ShareReadUITests;
+			productName = ShareReadUITests;
+			productReference = FE747C1C1D25573D00B05C80 /* ShareReadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE747BF61D25573C00B05C80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Reeve;
+				TargetAttributes = {
+					FE747BFD1D25573C00B05C80 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = UKVRKBZWDQ;
+					};
+					FE747C101D25573D00B05C80 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = UKVRKBZWDQ;
+						TestTargetID = FE747BFD1D25573C00B05C80;
+					};
+					FE747C1B1D25573D00B05C80 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = UKVRKBZWDQ;
+						TestTargetID = FE747BFD1D25573C00B05C80;
+					};
+				};
+			};
+			buildConfigurationList = FE747BF91D25573C00B05C80 /* Build configuration list for PBXProject "ShareRead" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE747BF51D25573C00B05C80;
+			productRefGroup = FE747BFF1D25573C00B05C80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE747BFD1D25573C00B05C80 /* ShareRead */,
+				FE747C101D25573D00B05C80 /* ShareReadTests */,
+				FE747C1B1D25573D00B05C80 /* ShareReadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE747BFC1D25573C00B05C80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE747C081D25573C00B05C80 /* Assets.xcassets in Resources */,
+				FE747C0B1D25573C00B05C80 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE747C0F1D25573D00B05C80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE747C1A1D25573D00B05C80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE747BFA1D25573C00B05C80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE747C061D25573C00B05C80 /* AppDelegate.m in Sources */,
+				FE747C031D25573C00B05C80 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE747C0D1D25573D00B05C80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE747C161D25573D00B05C80 /* ShareReadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE747C181D25573D00B05C80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE747C211D25573D00B05C80 /* ShareReadUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE747C131D25573D00B05C80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE747BFD1D25573C00B05C80 /* ShareRead */;
+			targetProxy = FE747C121D25573D00B05C80 /* PBXContainerItemProxy */;
+		};
+		FE747C1E1D25573D00B05C80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE747BFD1D25573C00B05C80 /* ShareRead */;
+			targetProxy = FE747C1D1D25573D00B05C80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE747C091D25573C00B05C80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE747C0A1D25573C00B05C80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE747C231D25573D00B05C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE747C241D25573D00B05C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE747C261D25573D00B05C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareRead/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.songdian.Reiwei.ShareRead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE747C271D25573D00B05C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareRead/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.songdian.Reiwei.ShareRead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE747C291D25573D00B05C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShareReadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.songdian.Reiwei.ShareReadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareRead.app/ShareRead";
+			};
+			name = Debug;
+		};
+		FE747C2A1D25573D00B05C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShareReadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.songdian.Reiwei.ShareReadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareRead.app/ShareRead";
+			};
+			name = Release;
+		};
+		FE747C2C1D25573D00B05C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShareReadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.songdian.Reiwei.ShareReadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShareRead;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FE747C2D1D25573D00B05C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShareReadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.songdian.Reiwei.ShareReadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShareRead;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE747BF91D25573C00B05C80 /* Build configuration list for PBXProject "ShareRead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE747C231D25573D00B05C80 /* Debug */,
+				FE747C241D25573D00B05C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE747C251D25573D00B05C80 /* Build configuration list for PBXNativeTarget "ShareRead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE747C261D25573D00B05C80 /* Debug */,
+				FE747C271D25573D00B05C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE747C281D25573D00B05C80 /* Build configuration list for PBXNativeTarget "ShareReadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE747C291D25573D00B05C80 /* Debug */,
+				FE747C2A1D25573D00B05C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE747C2B1D25573D00B05C80 /* Build configuration list for PBXNativeTarget "ShareReadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE747C2C1D25573D00B05C80 /* Debug */,
+				FE747C2D1D25573D00B05C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE747BF61D25573C00B05C80 /* Project object */;
+}
